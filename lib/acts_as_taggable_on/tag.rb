@@ -82,6 +82,8 @@ module ActsAsTaggableOn
       end
     end
 
+    acts_as_tree
+    
     ### INSTANCE METHODS:
 
     def ==(object)
